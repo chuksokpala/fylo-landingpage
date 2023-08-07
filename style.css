@@ -1,0 +1,194 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Raleway', sans-serif;
+    padding: 50px;
+}
+.rest{
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+img{
+    max-width: 100%;
+}
+header div img{
+    width: 200px;
+}
+.nav-bar{
+    list-style-type:none;
+}
+header div ul li{
+display: inline;
+padding: 2rem;
+}
+
+.first-layer{
+    display: flex;
+    width: 100%;
+    /* padding: ; */
+}
+
+.first-wing{
+    width: 80%;
+    max-width: 600px;
+    padding-top: 80px;
+    padding-left: 50px;
+}
+h1{
+    font-size: 35px;
+    line-height: 1.5;
+   
+}
+.first-wing p {
+    line-height: 1.5;
+    font-size: 17px;
+}
+input{
+    width: 17rem;
+    height: 2.3rem
+}
+button{
+    background-color: hsl(224, 93%, 58%);
+    color: #fff;
+    height: 2.5rem;
+    width: 13rem;
+    margin-left: 10px;
+    border-style: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.second-layer{
+    background-color:  hsl(240, 75%, 98%);
+    display: flex;
+    position: relative;
+    padding: 50px 50px;
+    margin-top: 150px;
+}
+.second-layer::before{
+    content: '';
+    background-image: url('./images/bg-curve-desktop.svg');
+    background-size: cover;
+    position: absolute;
+    top: -60px;
+    left: 0;
+    height:60px;
+    width: 100%;
+}
+section div a{
+    color:  hsl(170, 45%, 43%);
+    text-decoration: none;
+    
+}
+.green{
+    text-decoration: underline;
+    color:  hsl(170, 45%, 43%);
+}
+.card{
+    background-color: #fff;
+    margin-top: 30px;
+    width: 60%;
+    padding: 20px;
+}
+.card p{
+line-height: 1.7;
+font-size: 13px;
+letter-spacing: 0.7px;
+}
+aside{
+    display: inline-flex;
+}
+aside img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 19px;
+}
+
+aside ul {
+    list-style-type:none;
+    padding-left: 15px;
+    font-size: 13px;
+}
+.name{
+    font-weight:bolder ;
+    font-size: 12px;
+}
+.job{
+    font-size: 10px;
+}
+.dark-blue{
+    background-color:  hsl(238, 22%, 44%);
+    color: rgb(241, 236, 236);
+    height: 350px;
+    padding:50px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.dark-blue h2{
+    font-size: 30px;
+}
+.dark-blue p{
+    width: 500px;
+    letter-spacing: 0.7px;
+    font-size: 16px;
+}
+.lower-button{
+    width: 150px;
+    margin-top: 10px;
+    margin-left:0;
+    cursor: pointer;
+}
+
+
+footer{
+    background-color:  hsl(243, 87%, 12%);
+    color: #fff;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    
+}
+.foot {
+    display: flex;
+    position: relative;
+    right: 25rem;
+}
+.ul li {
+    padding: 0.5rem;
+    list-style-type: none;
+}
+.ut li{
+    padding: 0.5rem;
+    list-style-type: none;
+    font-size: 20px;
+    display: block;
+}
+.second-div{
+    position: relative;
+    left: 12rem;
+}
+.classic {
+    position: relative;
+    right: 8rem;
+    padding: 10px;
+    color: #fff;
+}
+.uk {
+    list-style: none;
+    padding: 0.2rem;
+}
+footer div .img{
+   
+
+}
